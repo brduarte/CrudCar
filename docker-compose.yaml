@@ -6,12 +6,12 @@ services:
     image: postgres:13.1
     container_name: 'crud-car-db'
     environment:
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      POSTGRES_DB: ${DB_DATABASE}
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_DATABAS:-db-crud-car}
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:
-      - ${DB_PORT}:5432
+      - ${DB_PORT:-5432}:5432
     volumes:
       - ./.docker/postgres:/var/lib/postgresql/data
     networks:
