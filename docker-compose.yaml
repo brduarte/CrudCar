@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+
+  postgres:
+    env_file:
+      - .env
+    image: postgres:13.1
+    container_name: 'crud-car-db'
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - ${DB_PORT}:5432
+    volumes:
+      - ./.docker/postgres:/var/lib/postgresql/data
+    networks:
+      - network-crud-car
+
+networks:
+  network-crud-car:
+    driver: bridge
