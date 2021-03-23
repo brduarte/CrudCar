@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 module.exports = {
-  username: 'root',
-  password: 'root',
-  database: 'crud_sequelize',
-  host: '127.0.0.1',
-  dialect: 'mysql',
+  username: process.env.DB_USER || 'postgres',
+  password: process.env.DB_PASSWORD || 'postgres',
+  database: process.env.DB_DATABASE || 'crudcar',
+  host: process.env.DB_DATABASE || '127.0.0.1',
+  dialect: 'postgres',
 }
