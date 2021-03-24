@@ -10,12 +10,18 @@ module.exports = {
       },
       board: {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       chassis: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       renavam: {
+        type: Sequelize.STRING,
+        unique: true
+      },
+      model: {
         type: Sequelize.STRING
       },
       brand: {

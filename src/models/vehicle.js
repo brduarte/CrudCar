@@ -11,15 +11,18 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
     }
-
-  };
-
+  }
   Vehicle.init({
-    id: DataTypes.INTEGER,
+    id: {
+      primaryKey: true,
+      autoIncrement: true,
+      type: DataTypes.INTEGER
+    },
     board: DataTypes.STRING,
     chassis: DataTypes.STRING,
     renavam: DataTypes.STRING,
     brand: DataTypes.STRING,
+    model: DataTypes.STRING,
     year: DataTypes.INTEGER
   }, {
     sequelize,
