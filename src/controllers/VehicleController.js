@@ -1,6 +1,6 @@
 const createError = require('http-errors')
 const {Op} = require('sequelize')
-
+const {validationResult} = require('express-validator');
 
 const {Vehicle} = require('../models')
 
@@ -40,6 +40,11 @@ async function create(request, response, next) {
 async function get(request, response, next) {
   try {
 
+    const errors = validationResult(request);
+    if (!errors.isEmpty()) {
+      return response.status(422).json({errors: errors.array()});
+    }
+
     const {limit, offset} = request.query
     let vehicle = await Vehicle.findAndCountAll({
       limit: limit || 10,
@@ -48,12 +53,33 @@ async function get(request, response, next) {
 
     response.json(vehicle)
 
-  } catch (err) {
-    next(err)
+  } catch (error) {
+    next(error)
+  }
+}
+
+async function getById(request, response, next) {
+  try {
+
+    const errors = validationResult(request);
+    if (!errors.isEmpty()) {
+      return response.status(422).json({errors: errors.array()});
+    }
+
+    const {id} = request.params
+    const vehicle = await Vehicle.findOne({
+      where: {id}
+    })
+
+    response.json(vehicle)
+
+  } catch (error) {
+    next(error)
   }
 }
 
 module.exports = {
   create,
-  get
+  get,
+  getById
 };
