@@ -50,7 +50,7 @@ $ npm start
 ## 📝 Documentação 
 
 - [Documentação da API](https://documenter.getpostman.com/view/5528641/TzCHAqDw)
-- [Como instalar o Docker/Docker Compose](https://docs.docker.com/engine/install/)
+- [Como Instalar o Docker/Docker Compose](https://docs.docker.com/engine/install/)
 - [Mocha](https://mochajs.org/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Node.js](https://nodejs.org/en/docs/)
