@@ -24,12 +24,17 @@ $ npm install
 ```console
 $ cp -v .env.example .env
 ```
-3. Execute o projeto
+
+3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do docker compose para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env
+
+
+
+4. Execute o projeto
 ```console
 $ npm start
 ```
 
-4. Sua API deve estar sendo executado em [localhost:3000](http://localhost:3000/).
+5. Sua API deve estar sendo executado em [localhost:3000](http://localhost:3000/).
 
         ⚠️ OBS: A api sera executa na porta parametrizada na variável `APP_PORT` do projeto.
 
