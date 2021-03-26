@@ -25,9 +25,7 @@ $ npm install
 $ cp -v .env.example .env
 ```
 
-3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do docker compose para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env
-
-
+3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do *Docker Compose* para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env
 
 4. Execute o projeto
 ```console
