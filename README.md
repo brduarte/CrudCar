@@ -47,7 +47,7 @@ $ npm start
 ![image](https://user-images.githubusercontent.com/29002558/112572587-3873fb00-8dc9-11eb-9312-18d29fc82591.png)
 
 
-🧪 ## Executando Testes
+## 🧪 Executando Testes
 
 - Depois de configurar o sistema, basta rodar o comando abaixo.
 ```console
