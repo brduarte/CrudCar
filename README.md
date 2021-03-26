@@ -6,7 +6,7 @@
   - Express
   - ORM Sequelize 
   - Mocha
-  - Postgres 
+  - PostgreSQL
 
 ## 👨‍💻 Executando Manualmente
 
