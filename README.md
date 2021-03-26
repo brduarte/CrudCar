@@ -1,6 +1,6 @@
 # 🚗 CrudCar
 
-## ⚒️ Ferramentas utilizadas 
+## ⚒️ Ferramentas Utilizadas 
   
   - Node.js
   - Express
@@ -8,7 +8,7 @@
   - Mocha
   - Postgres 
 
-## 👨‍💻 Executando manualmente
+## 👨‍💻 Executando Manualmente
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 
