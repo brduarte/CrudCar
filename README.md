@@ -25,7 +25,7 @@ $ npm install
 $ cp -v .env.example .env
 ```
 
-3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do *Docker Compose* para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env, basta você executar o comando abaixo.
+3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do **Docker Compose** para subir um banco de dados para você utilizando os parâmetros configurado no arquivo **.env**, basta você executar o comando abaixo.
          
          ⚠️ OBS: Certifique-se que você tenha o Docker e o Docker Compose instalado em seu computador, caso o contrário você pode encontrar o guia de instalação no índice de documentação.
 
@@ -40,9 +40,12 @@ $ docker-compose up postgres
 $ npm start
 ```
 
-5. Sua API deve estar sendo executado em [localhost:3000](http://localhost:3000/).
+5. Sua API deve estar sendo executada em [http://localhost:3000](http://localhost:3000/).
 
         ⚠️ OBS: A API será executada na porta parametrizada na variável `APP_PORT` do projeto. 
+
+![image](https://user-images.githubusercontent.com/29002558/112572587-3873fb00-8dc9-11eb-9312-18d29fc82591.png)
+
 
 ## 📝 Documentação 
 
