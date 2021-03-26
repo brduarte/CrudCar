@@ -25,13 +25,13 @@ $ npm install
 $ cp -v .env.example .env
 ```
 
-3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do *Docker Compose* para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env
+3. Execute o banco de dados. Você pode instanciar o banco de dados onde preferir, mas eu deixei uma configuração do *Docker Compose* para subir um banco de dados para você utilizando os parâmetros configurado no arquivo .env, basta você executar o comando abaixo.
          
-         ⚠️ OBS: Certifique que você tenha o Docker e o Docker Compose instalado em seu computador, caso o contrário você pode encontrar o guia de instalação no índice de documentação.
+         ⚠️ OBS: Certifique-se que você tenha o Docker e o Docker Compose instalado em seu computador, caso o contrário você pode encontrar o guia de instalação no índice de documentação.
 
 
 ```console
-$ npm start
+$ docker-compose up postgres
 ```
 
 
