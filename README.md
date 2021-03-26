@@ -12,12 +12,26 @@
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 
-```shell script
-$ git clone https://github.com/brduarte/CrudCar.git # ou clone seu próprio fork
+1. Clone seu repositório e instale as dependências  
+
+```console
+$ git clone https://github.com/brduarte/CrudCar.git 
 $ cd CrudCar
 $ npm install
+```
+
+2. Renome o arquivo .env.example para .env
+```console
+$ cp -v .env.example .env
+```
+3. Execute o projeto
+```console
 $ npm start
 ```
+
+4. Acesse
+
+
 Seu aplicativo agora deve estar sendo executado em [localhost:3000](http://localhost:3000/).
 
 Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://jogo-multiplayer.herokuapp.com/)
