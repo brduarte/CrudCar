@@ -29,10 +29,9 @@ $ cp -v .env.example .env
 $ npm start
 ```
 
-4. Acesse
+Sua API deve estar sendo executado em [localhost:3000](http://localhost:3000/).
 
-
-Seu aplicativo agora deve estar sendo executado em [localhost:3000](http://localhost:3000/).
+    *OBS:* A api sera executa na porta parametrizada na variável `APP_PORT` do projeto.
 
 Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://jogo-multiplayer.herokuapp.com/)
 
@@ -42,14 +41,6 @@ Para obter mais informações das ferramentas utilizadas:
 
 - [Node.js](https://nodejs.org/en/docs/)
 - [Express](https://expressjs.com/pt-br/)
-- [Socket.io](https://socket.io/docs/)
-
-## Fontes
-
-Código baseado na playlist do canal no YouTube [Filipe Deschamps](https://www.youtube.com/watch?v=0sTfIZvjYJk&list=PLMdYygf53DP5SVQQrkKCVWDS0TwYLVitL): 
-
-| [<img src="https://avatars0.githubusercontent.com/u/4248081?v=3&s=115"><br><sub>@filipedeschamps</sub>](https://github.com/filipedeschamps) |
-| :---: |
 
 ## Autor
 
