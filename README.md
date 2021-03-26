@@ -20,7 +20,7 @@ $ cd CrudCar
 $ npm install
 ```
 
-2. Renome o arquivo .env.example para .env
+2. Renome o arquivo .env.example para `.env`
 ```console
 $ cp -v .env.example .env
 ```
@@ -35,7 +35,7 @@ $ docker-compose up postgres
 ```
 
 
-4. Execute o projeto
+4. Execute o projeto.
 ```console
 $ npm start
 ```
