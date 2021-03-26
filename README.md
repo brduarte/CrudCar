@@ -42,7 +42,7 @@ $ npm start
 
 5. Sua API deve estar sendo executado em [localhost:3000](http://localhost:3000/).
 
-        ⚠️ OBS: A api sera executa na porta parametrizada na variável `APP_PORT` do projeto.
+        ⚠️ OBS: A API será executada na porta parametrizada na variável `APP_PORT` do projeto. 
 
 ## 📝 Documentação 
 
