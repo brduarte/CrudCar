@@ -49,7 +49,6 @@ $ npm start
 
 ## 📝 Documentação 
 
-Para obter mais informações das ferramentas utilizadas:
 - [Documentação da API](https://documenter.getpostman.com/view/5528641/TzCHAqDw)
 - [Como instalar o Docker/Docker Compose](https://docs.docker.com/engine/install/)
 - [Mocha](https://mochajs.org/)
