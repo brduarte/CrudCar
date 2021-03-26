@@ -44,8 +44,6 @@ $ npm start
 
         ⚠️ OBS: A api sera executa na porta parametrizada na variável `APP_PORT` do projeto.
 
-Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://jogo-multiplayer.herokuapp.com/)
-
 ## 📝 Documentação 
 
 Para obter mais informações das ferramentas utilizadas:
