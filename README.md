@@ -1,28 +1,43 @@
-# CrudCar
+# 🚗 CrudCar
 
-```console
-Sequelize CLI [Node: 14.15.5, CLI: 6.2.0, ORM: 6.6.2]
+## ⚒️ Ferramentas utilizadas 
+  
+  - Node.js
+  - Express
+  - ORM Sequelize 
+  - Mocha
+  - Postgres 
 
-sequelize <command>
+## 👨‍💻 Executando manualmente
 
-Commands:
-  sequelize db:migrate                        Run pending migrations
-  sequelize db:migrate:schema:timestamps:add  Update migration table to have timestamps
-  sequelize db:migrate:status                 List the status of all migrations
-  sequelize db:migrate:undo                   Reverts a migration
-  sequelize db:migrate:undo:all               Revert all migrations ran
-  sequelize db:seed                           Run specified seeder
-  sequelize db:seed:undo                      Deletes data from the database
-  sequelize db:seed:all                       Run every seeder
-  sequelize db:seed:undo:all                  Deletes data from the database
-  sequelize db:create                         Create database specified by configuration
-  sequelize db:drop                           Drop database specified by configuration
-  sequelize init                              Initializes project
-  sequelize init:config                       Initializes configuration
-  sequelize init:migrations                   Initializes migrations
-  sequelize init:models                       Initializes models
-  sequelize init:seeders                      Initializes seeders
-  sequelize migration:generate                Generates a new migration file                                                                                                                [aliases: migration:create]
-  sequelize model:generate                    Generates a model and its migration                                                                                                               [aliases: model:create]
-  sequelize seed:generate                     Generates a new seed file
+Assegure-se de ter [Node.js](http://nodejs.org/) instalado
+
+```shell script
+$ git clone https://github.com/brduarte/CrudCar.git # ou clone seu próprio fork
+$ cd CrudCar
+$ npm install
+$ npm start
 ```
+Seu aplicativo agora deve estar sendo executado em [localhost:3000](http://localhost:3000/).
+
+Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://jogo-multiplayer.herokuapp.com/)
+
+## 📝 Documentação 
+
+Para obter mais informações das ferramentas utilizadas:
+
+- [Node.js](https://nodejs.org/en/docs/)
+- [Express](https://expressjs.com/pt-br/)
+- [Socket.io](https://socket.io/docs/)
+
+## Fontes
+
+Código baseado na playlist do canal no YouTube [Filipe Deschamps](https://www.youtube.com/watch?v=0sTfIZvjYJk&list=PLMdYygf53DP5SVQQrkKCVWDS0TwYLVitL): 
+
+| [<img src="https://avatars0.githubusercontent.com/u/4248081?v=3&s=115"><br><sub>@filipedeschamps</sub>](https://github.com/filipedeschamps) |
+| :---: |
+
+## Autor
+
+| [<img width="125px" src="https://avatars2.githubusercontent.com/u/29002558?v=4"><br><sub>@brduarte</sub>](https://github.com/brduarte)|
+| :---: |
